@@ -1,0 +1,18 @@
+#root {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(190, 86, 231);
+}
+
+#my-name {
+    font-style: bold;
+}
+
+footer {
+    text-align: center;
+}
+
+#profile-photo {
+    border-radius: 150px;
+    border-color: black;
+}
