@@ -3,28 +3,356 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Document</title>
+
+    <title>Wesley Carlesso | Software Engineer</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            font-family: 'Inter', sans-serif;
+        }
+
+        html{
+            scroll-behavior:smooth;
+        }
+    </style>
+
 </head>
-<body>
-    <div id="root">
-        <p>
-            Hello, I'm
-        </p>
-        <img id="profile-photo" src="profile.jpg" alt="">
-        <div id="my-name">
-            <p>
-                Wesley Kasteller Carlesso
-            </p>
-        </div>
+
+<body class="bg-zinc-950 text-white">
+
+<header class="border-b border-zinc-800">
+
+    <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-6">
+
+        <h1 class="font-bold text-xl">
+            Wesley Carlesso
+        </h1>
+
+        <nav class="hidden md:flex gap-8 text-sm text-zinc-400">
+
+            <a href="#about" class="hover:text-white transition">
+                About
+            </a>
+
+            <a href="#experience" class="hover:text-white transition">
+                Experience
+            </a>
+
+            <a href="#projects" class="hover:text-white transition">
+                Projects
+            </a>
+
+            <a href="#contact" class="hover:text-white transition">
+                Contact
+            </a>
+
+        </nav>
+
     </div>
 
-    <footer>
-        <p>
-            <a href="https://www.linkedin.com/in/wesley-carlesso/">Linkedin</a>
-            <a href="https://github.com/WesleyKCarlesso">GitHub</a>
+</header>
+
+<section class="max-w-6xl mx-auto px-6 min-h-[80vh] flex items-center">
+
+    <div>
+
+        <p class="uppercase tracking-[4px] text-blue-400 font-semibold mb-5">
+            Software Engineer
         </p>
-    </footer>
+
+        <h2 class="text-5xl md:text-7xl font-extrabold leading-tight">
+
+            Wesley Carlesso
+            <br>
+
+        </h2>
+
+        <p class="mt-8 text-zinc-400 max-w-2xl text-lg leading-8">
+
+            I'm Wesley, a Software Engineer from Brazil with nearly five years
+            of experience developing backend and full-stack applications using
+            ASP.NET Core, C#, SQL Server, cloud technologies and modern web
+            development.
+
+        </p>
+
+        <div class="mt-12 flex flex-wrap gap-4">
+
+            <a href="#projects"
+               class="bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-zinc-300 transition">
+
+                View Projects
+
+            </a>
+
+            <a href="assets/WesleyCarlessoResume.pdf"
+               class="border border-zinc-700 px-6 py-3 rounded-lg hover:border-white transition">
+
+                Resume
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="about" class="max-w-6xl mx-auto px-6 py-14">
+
+    <h2 class="text-3xl font-bold mb-12">
+        About
+    </h2>
+
+    <div class="max-w-3xl space-y-6 text-zinc-400 leading-8">
+
+        <p>
+
+            I'm a Software Engineer specializing in backend development with
+            ASP.NET Core and C#. My experience includes designing REST APIs,
+            maintaining legacy systems, building new features and delivering
+            scalable software.
+
+        </p>
+
+        <p>
+
+            Currently I work as a Full Stack Developer for a US company,
+            collaborating on production applications while continuously
+            improving architecture, performance and user experience.
+
+        </p>
+
+    </div>
+
+</section>
+
+<section id="experience" class="max-w-6xl mx-auto px-6 py-16">
+
+    <h2 class="text-3xl font-bold mb-12">
+        Experience
+    </h2>
+
+    <div class="space-y-8">
+
+        <div class="border border-zinc-800 rounded-xl p-8">
+
+            <div class="flex justify-between flex-wrap gap-2">
+
+                <h3 class="font-semibold text-xl">
+                    ZipDev
+                </h3>
+
+                <span class="text-zinc-500">
+                    2026 — Present
+                </span>
+
+            </div>
+
+            <p class="text-blue-400 mt-2">
+                Mid-Level .NET Developer
+            </p>
+
+            <p class="text-zinc-400 mt-5">
+
+                Full Stack Developer working with US clients, building
+                production-ready applications using .NET Core, PHP / Laravel, SQL Server and Vue.js.
+
+            </p>
+
+        </div>
+
+        <div class="border border-zinc-800 rounded-xl p-8">
+
+            <div class="flex justify-between flex-wrap gap-2">
+
+                <h3 class="font-semibold text-xl">
+                    Prax Tech for Retail
+                </h3>
+
+                <span class="text-zinc-500">
+                    2024 — 2026
+                </span>
+
+            </div>
+
+            <p class="text-blue-400 mt-2">
+                Mid-Level .NET Developer
+            </p>
+
+            <p class="text-zinc-400 mt-5">
+
+                Responsible for the company's software sector, developing Web, Desktop
+                and Mobile applications while maintaining existing systems and delivering
+                new features. I also researched and implemented technical solutions,
+                integrated AI camera technologies, evaluated third-party services and
+                helped define the architecture for new products.
+
+            </p>
+
+        </div>
+
+        <div class="border border-zinc-800 rounded-xl p-8">
+
+            <div class="flex justify-between flex-wrap gap-2">
+
+                <h3 class="font-semibold text-xl">
+                    3SAT Tecnologia
+                </h3>
+
+                <span class="text-zinc-500">
+                    2023 — 2024
+                </span>
+
+            </div>
+
+            <p class="text-blue-400 mt-2">
+                Junior .NET Developer
+            </p>
+
+            <p class="text-zinc-400 mt-5">
+
+                Maintained enterprise web applications and implemented new features using
+                ASP.NET, MongoDB and JavaScript while working closely with the
+                development team on production systems. I also used PlayWright to 
+                create some automated tests to the frontend project.
+
+            </p>
+
+        </div>
+
+        <div class="border border-zinc-800 rounded-xl p-8">
+
+            <div class="flex justify-between flex-wrap gap-2">
+
+                <h3 class="font-semibold text-xl">
+                    Ágili Software
+                </h3>
+
+                <span class="text-zinc-500">
+                    2021 — 2023
+                </span>
+
+            </div>
+
+            <p class="text-blue-400 mt-2">
+                Trainee / Junior .NET Developer
+            </p>
+
+            <p class="text-zinc-400 mt-5">
+
+                Started as a trainee and later became a Junior .NET Developer, contributing
+                to maintenance, bug fixes and the development of new features for the
+                company's web applications.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="max-w-6xl mx-auto px-6 py-16">
+
+    <h2 class="text-3xl font-bold mb-12">
+        Tech Stack
+    </h2>
+
+    <div class="flex flex-wrap gap-4">
+
+        <span class="border border-zinc-700 rounded-full px-5 py-2">C#</span>
+        <span class="border border-zinc-700 rounded-full px-5 py-2">.NET</span>
+        <span class="border border-zinc-700 rounded-full px-5 py-2">ASP.NET Core</span>
+        <span class="border border-zinc-700 rounded-full px-5 py-2">SQL Server</span>
+        <span class="border border-zinc-700 rounded-full px-5 py-2">Git / GitHub</span>
+        <span class="border border-zinc-700 rounded-full px-5 py-2">JavaScript</span>
+        <span class="border border-zinc-700 rounded-full px-5 py-2">Angular</span>
+        <span class="border border-zinc-700 rounded-full px-5 py-2">Docker</span>
+        <span class="border border-zinc-700 rounded-full px-5 py-2">AWS (Lambda, S3, API Gateway, CodePipeline)</span>
+        <span class="border border-zinc-700 rounded-full px-5 py-2">Azure DevOps</span>
+
+    </div>
+
+</section>
+
+<section id="projects" class="max-w-6xl mx-auto px-6 py-16">
+
+    <h2 class="text-3xl font-bold mb-12">
+        Projects
+    </h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+        <a href="https://github.com/WesleyKCarlesso/Estagio" target="_blank" class="border border-zinc-800 rounded-xl p-8 hover:-translate-y-1 transition">
+
+            <h3 class="text-xl font-semibold">
+                Scheduling System (Under work)
+            </h3>
+
+            <p class="text-zinc-400 mt-4">
+
+                Web-based online scheduling system for beauty salons and aesthetic clinics.
+
+            </p>
+
+        </a>
+
+    </div>
+
+</section>
+
+<section id="contact" class="max-w-6xl mx-auto px-6 py-16 text-center">
+
+    <h2 class="text-4xl font-bold">
+        Get in Touch.
+    </h2>
+
+    <p class="text-zinc-400 mt-6">
+
+        Reach out on LinkedIn or explore my work on GitHub.
+
+    </p>
+
+    <div class="flex justify-center gap-8 mt-10 text-zinc-300">
+
+        <a href="mailto:wesleykcarlesso@gmail.com">
+            Email
+        </a>
+
+        <a href="https://github.com/WesleyKCarlesso" target="_blank">
+            GitHub
+        </a>
+
+        <a href="https://linkedin.com/in/wesley-carlesso" target="_blank">
+            LinkedIn
+        </a>
+
+    </div>
+
+</section>
+
+<footer class="border-t border-zinc-800">
+
+    <div class="max-w-6xl mx-auto px-6 py-8 flex justify-between text-sm text-zinc-500 flex-wrap gap-4">
+
+        <p>
+            © 2026 Wesley Carlesso
+        </p>
+
+        <p>
+            Built with HTML + Tailwind CSS
+        </p>
+
+    </div>
+
+</footer>
+
 </body>
 </html>
