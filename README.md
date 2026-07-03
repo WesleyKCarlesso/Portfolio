@@ -1,5 +1,5 @@
 ## My personal portfolio
 
-Available at (coming soon):
+Available at:
 
 > www.wesleycarlesso.com
